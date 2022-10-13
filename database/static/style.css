@@ -1,0 +1,108 @@
+body {
+    background-color: #242121;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #302c2c;
+    color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 260px;
+
+}
+
+.big {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+}
+
+.small {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    width: 678px;
+    height: 33px;
+    color: #808080;
+    background-color: #373737;
+    border-radius: 4px;
+}
+
+.inputs i {
+    transform: translateX(10px);
+    
+}
+
+input {
+    list-style: none;
+    color: white;
+    width: 640px;
+    height: 28px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    transform: translateX(20px);
+    background-color: #373737;
+}
+
+input:focus{
+    outline: none;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 230px;
+}
+
+.unlist {
+    width: 800px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.books img {
+    margin-right: 40px;
+    transform: rotate(-3.5deg);
+}
+
+.books {
+    display: flex;
+    background-color: rgba(113, 197, 244, 0.38);;
+    width: 489px;
+    height: 272px;
+}
+
+/* .books .left-side {
+    width: 100px;
+} */
+
+.left-side p {
+    width: 237px;
+}
