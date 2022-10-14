@@ -87,22 +87,74 @@ input:focus{
     line-height: 23px;
 }
 
+.top {
+    margin-top: 60px;
+}
+
 .books img {
     margin-right: 40px;
+    scale: 1.1;
     transform: rotate(-3.5deg);
 }
 
 .books {
     display: flex;
     background-color: rgba(113, 197, 244, 0.38);;
-    width: 489px;
+    width: 30%;
     height: 272px;
+    border-radius: 5px;
 }
 
 /* .books .left-side {
-    width: 100px;
+    text-align: center;
 } */
+
+.center {
+    text-align: center;
+}
 
 .left-side p {
     width: 237px;
+}
+
+.left-side h1 {
+    font-style: normal;
+    margin: 0;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 41px;
+}
+
+.left-side p {
+    justify-content: center;
+    color: #D2D2D2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14px;
+}
+
+.outline-btn {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    width: 178px;
+    font-size: 17px;
+    line-height: 20px;
+    padding: 8px 30px;
+}
+
+.outline-btn p {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+.all-books {
+    display: inline-block;
+}
+
+.all-books img {
+    scale: 0.6;
 }
