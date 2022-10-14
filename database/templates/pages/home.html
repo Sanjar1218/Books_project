@@ -75,14 +75,10 @@
             </div>
         </div>
     </article>
-    <div class="all-books">
-        <img src="../../static/images/books/image_2022-10-13_09-50-18.png" alt="book">
-        <img src="../../static/images/books/image_2022-10-13_09-50-18.png" alt="book">
-        <img src="../../static/images/books/image_2022-10-13_09-50-18.png" alt="book">
-        <img src="../../static/images/books/image_2022-10-13_09-50-18.png" alt="book">
-        <img src="../../static/images/books/image_2022-10-13_09-50-18.png" alt="book">
-        <img src="../../static/images/books/image_2022-10-13_09-50-18.png" alt="book">
-        <img src="../../static/images/books/image_2022-10-13_09-50-18.png" alt="book">
+    <div class="all-books row">
+        {% for i in data %}
+            <img src="http://127.0.0.1:8000/images/{{i.image}}" alt="asdf">
+        {% endfor %}
     </div>
 </body>
 </html>
